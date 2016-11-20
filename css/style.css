@@ -1,0 +1,61 @@
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	color:  #009999;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+/* SEARCH BAR */
+
+#search {
+	width: 100%;
+	height: 100px;
+	padding: 30px;
+
+}
+
+.navbar-form {
+    overflow: auto;
+}
+.navbar-form .form-control {
+    display: inline-block;
+    width: 95%; 
+    vertical-align: middle;
+}
+.navbar-form .form-group {
+    display: inline;
+}
+
+.per {
+    color: #fff;
+    background-color: #009999;
+    border-color: #fff;
+}
+
+.per:hover {
+	color: #fff;
+    background-color: #009999;
+    opacity: 0.8;
+    border-color: #fff;
+}
+
+/* RESULTS */
+
+#results {
+	width: 100%;
+	padding: 30px;
+}
+
+.name {
+	background-color: #009999;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
